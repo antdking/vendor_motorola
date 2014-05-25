@@ -16,24 +16,39 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/msm8610-common/proprietary/bin/apanic_annotate.sh:system/bin/apanic_annotate.sh \
     vendor/motorola/msm8610-common/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/msm8610-common/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
+    vendor/motorola/msm8610-common/proprietary/bin/aplogcat:system/bin/aplogcat \
+    vendor/motorola/msm8610-common/proprietary/bin/aplogd:system/bin/aplogd \
+    vendor/motorola/msm8610-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/motorola/msm8610-common/proprietary/bin/batch:system/bin/batch \
     vendor/motorola/msm8610-common/proprietary/bin/batt_health:system/bin/batt_health \
+    vendor/motorola/msm8610-common/proprietary/bin/brctl:system/bin/brctl \
     vendor/motorola/msm8610-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/motorola/msm8610-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/motorola/msm8610-common/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/msm8610-common/proprietary/bin/charger_monitor:system/bin/charger_monitor \
+    vendor/motorola/msm8610-common/proprietary/bin/crda:system/bin/crda \
     vendor/motorola/msm8610-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
+    vendor/motorola/msm8610-common/proprietary/bin/dsdnsutil:system/bin/dsdnsutil \
     vendor/motorola/msm8610-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/motorola/msm8610-common/proprietary/bin/ebtables:system/bin/ebtables \
+    vendor/motorola/msm8610-common/proprietary/bin/flatland:system/bin/flatland \
     vendor/motorola/msm8610-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/motorola/msm8610-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/msm8610-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8610-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
+    vendor/motorola/msm8610-common/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/msm8610-common/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/msm8610-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/msm8610-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/msm8610-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/msm8610-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8610-common/proprietary/bin/nl_listener:system/bin/nl_listener \
+    vendor/motorola/msm8610-common/proprietary/bin/n_smux:system/bin/n_smux \
     vendor/motorola/msm8610-common/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/motorola/msm8610-common/proprietary/bin/ptf:system/bin/ptf \
     vendor/motorola/msm8610-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/msm8610-common/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/msm8610-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
@@ -43,11 +58,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/msm8610-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/msm8610-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+    vendor/motorola/msm8610-common/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/msm8610-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/msm8610-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/msm8610-common/proprietary/bin/timedexec:system/bin/timedexec \
+    vendor/motorola/msm8610-common/proprietary/bin/tinycap:system/bin/tinycap \
+    vendor/motorola/msm8610-common/proprietary/bin/tinymix:system/bin/tinymix \
+    vendor/motorola/msm8610-common/proprietary/bin/tinypcminfo:system/bin/tinypcminfo \
+    vendor/motorola/msm8610-common/proprietary/bin/tinyplay:system/bin/tinyplay \
+    vendor/motorola/msm8610-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/motorola/msm8610-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/msm8610-common/proprietary/etc/firmware/synaptics-s2316i-13101703-175833-condor.tdat:system/etc/firmware/synaptics-s2316i-13101703-175833-condor.tdat \
+    vendor/motorola/msm8610-common/proprietary/etc/firmware/synaptics-s2316t-13101703-175833-condor.tdat:system/etc/firmware/synaptics-s2316t-13101703-175833-condor.tdat \
     vendor/motorola/msm8610-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8610-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/msm8610-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -57,21 +82,69 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/motorola/msm8610-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/motorola/msm8610-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/motorola/msm8610-common/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/motorola/msm8610-common/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/motorola/msm8610-common/proprietary/etc/msap.conf:system/etc/msap.conf \
+    vendor/motorola/msm8610-common/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
+    vendor/motorola/msm8610-common/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/motorola/msm8610-common/proprietary/etc/thermal-engine-8610.conf:system/etc/thermal-engine-8610.conf \
     vendor/motorola/msm8610-common/proprietary/lib/hw/audio.primary.msm8610.so:system/lib/hw/audio.primary.msm8610.so \
     vendor/motorola/msm8610-common/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
     vendor/motorola/msm8610-common/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
     vendor/motorola/msm8610-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/motorola/msm8610-common/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/motorola/msm8610-common/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
     vendor/motorola/msm8610-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_802_3.so:system/lib/libebt_802_3.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebtable_broute.so:system/lib/libebtable_broute.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebtable_filter.so:system/lib/libebtable_filter.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebtable_nat.so:system/lib/libebtable_nat.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_among.so:system/lib/libebt_among.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_arpreply.so:system/lib/libebt_arpreply.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_arp.so:system/lib/libebt_arp.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebtc.so:system/lib/libebtc.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_ip6.so:system/lib/libebt_ip6.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_ip.so:system/lib/libebt_ip.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_limit.so:system/lib/libebt_limit.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_log.so:system/lib/libebt_log.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_mark_m.so:system/lib/libebt_mark_m.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_mark.so:system/lib/libebt_mark.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_nat.so:system/lib/libebt_nat.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_nflog.so:system/lib/libebt_nflog.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_pkttype.so:system/lib/libebt_pkttype.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_redirect.so:system/lib/libebt_redirect.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_standard.so:system/lib/libebt_standard.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_stp.so:system/lib/libebt_stp.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_ulog.so:system/lib/libebt_ulog.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libebt_vlan.so:system/lib/libebt_vlan.so \
     vendor/motorola/msm8610-common/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/motorola/msm8610-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/msm8610-common/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/msm8610-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/msm8610-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/msm8610-common/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/msm8610-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/msm8610-common/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/msm8610-common/proprietary/lib/soundfx/libmmieffectswrapper.so:system/lib/soundfx/libmmieffectswrapper.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8610-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -81,8 +154,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -92,25 +169,44 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/msm8610-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxIttiamVdec.so:system/vendor/lib/libOmxIttiamVdec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -123,16 +219,32 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/motorola/msm8610-common/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -203,6 +315,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/motorola/msm8610-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/motorola/msm8610-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/motorola/msm8610-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/motorola/msm8610-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -224,5 +339,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/motorola/msm8610-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/motorola/msm8610-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/motorola/msm8610-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
